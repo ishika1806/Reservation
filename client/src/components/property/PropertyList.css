@@ -1,0 +1,26 @@
+.pContainer{
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.plist{
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+}
+.pListImg{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+
+}
+.plist h1{
+    font-size: 18px;    text-transform: capitalize;
+}
+.plist h2{
+    font-size: 15px;
+    color: rgb(167, 158, 158)
+}

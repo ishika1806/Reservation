@@ -1,0 +1,13 @@
+.homeContainer{
+    margin-top: 50px;
+    flex-direction: column;
+    gap:40px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin-bottom: 20px;
+}
+.homeTitle{
+    font-size: 20px;
+    width: 1024px;
+}

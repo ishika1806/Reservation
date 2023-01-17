@@ -1,0 +1,109 @@
+.header {
+  background-color: #003580;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.header-container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
+}
+.header-container.listMode{
+  margin: 20px 0px 0px 0px;
+}
+.header-list-items {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.header-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-items.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.headerDesc {
+  margin: 20px 0px;
+}
+.headerBtn {
+  background-color: #0071c2;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.headerSearch {
+  background-color: white;
+  height: 50px;
+  align-items: center;
+  padding: 0 10px;
+  border: 2px solid black;
+  position:absolute;
+  bottom: -19px;
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+}
+.headerSearchLogo{
+    color: lightgray;
+}
+.headerSearchItem{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+}
+.headerSearchText{
+    color: rgb(79, 76, 76);
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.date{
+    position: absolute;
+    top:50px;
+    z-index: 2;
+}
+.option-container{
+    position: absolute;
+    top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    border: 1px solid rgb(251, 246, 246);
+    padding: 20px;
+    margin-top: 3px;
+    background-color: rgb(237, 229, 229);
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+}
+.option-items{
+    display: flex;
+    color: black;
+    gap:10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.optionBtn{
+    border: 0.5px solid rgb(193, 188, 188);
+    padding: 5px 15px;
+    border-radius: 2px;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.optionBtn:disabled{
+    cursor: not-allowed;
+}
+.option-itemstext{
+    font-size: 14px;
+}
